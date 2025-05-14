@@ -1,30 +1,79 @@
-# Gramintel
+# 📌 Gramintel
 
-**Gramintel** is a CLI tool by [upliftedl](https://github.com/abhishekjohns) for extracting publicly accessible and obfuscated metadata from Instagram accounts using either a username or an ID.
+> A clean, fast Instagram metadata extractor built by [upliftedl](https://github.com/upliftedl)
 
-## Features
+**Gramintel** is a command-line OSINT tool to extract public and obfuscated metadata (emails, phones, links, bios, follower stats, etc.) from Instagram profiles using a valid session ID.
 
-- ✅ Query by **username** or **Instagram ID**
-- ✅ Export results to **JSON file** (`--json`)
-- ✅ Print **pretty JSON** in terminal (`--pretty`)
-- ✅ Colored terminal output
+---
 
-## Installation
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/github/license/upliftedl/gramintel-)
+![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
+
+---
+
+## ⚙️ Prerequisites
+
+- Python 3.8+
+- pip (Python package manager)
+- Instagram session ID (from browser cookies)
+
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/abhishekjohns/gramintel.git
-cd gramintel
-python3 setup.py install
+git clone https://github.com/upliftedl/gramintel-.git
+cd gramintel-
+pip install .
 ```
 
-## Usage
+---
+
+## 🔐 How to Get Your Instagram Session ID
+
+1. Login at [instagram.com](https://instagram.com)
+2. Open DevTools → Application → Cookies → `sessionid`
+3. Copy the full value (do not encode)
+
+---
+
+## 💻 Usage
 
 ```bash
-gramintel -u username -s YOUR_SESSION_ID
-gramintel -i instagram_id -s YOUR_SESSION_ID --json result.json
-gramintel -u username -s YOUR_SESSION_ID --pretty
+gramintel -u <username> -s <session_id>
+gramintel -i <user_id> -s <session_id>
 ```
 
-## License
+Example:
+```bash
+gramintel -u natgeo -s 1234567890:abcDEFghiJKLmnopQR
+```
 
-Licensed under the GPLv3.
+---
+
+## 🧪 Output
+
+- ✅ Simple terminal display
+- ✅ Mobile API headers to bypass detection
+- ✅ No JSON clutter
+
+---
+
+## 🚨 Legal Disclaimer
+
+This tool is intended for **educational and lawful OSINT** purposes only.  
+Usage against Instagram’s Terms of Service is solely your responsibility.
+
+---
+
+## 📄 License
+
+Licensed under the [GNU GPLv3](LICENSE)
+
+---
+
+## 👤 Author
+
+**upliftedl**  
+[GitHub Profile](https://github.com/upliftedl)
