@@ -60,7 +60,24 @@ gramintel -u natgeo -s 1234567890:abcDEFghiJKLmnopQR
 
 ---
 ## 📄 Example Output
-<pre> \`\`\`text Informations about : _exampleuser_ | userID : 1234567890 Full Name : Example User Verified : False | Is Business Account : True Is Private Account : False Follower : 12000 | Following : 310 Number of posts : 98 Number of tag in posts : 3 External url : https://example.com IGTV posts : 2 Biography : OSINT enthusiast & explorer Public Email : info@example.com Public Phone : +00 0 123 456 789 Obfuscated email : ex*****@example.com Obfuscated phone : +00 ** *** ** ** ------------------------------- Profile Picture : https://scontent-xx-xx.cdninstagram.com/... \`\`\` </pre>
+Informations about     : _exampleuser_     | userID : 1234567890
+Full Name              : Example User
+Verified               : False             | Is Business Account : True
+Is Private Account     : False
+Follower               : 12000             | Following : 310
+Number of posts        : 98
+Number of tag in posts : 3
+External url           : https://example.com
+IGTV posts             : 2
+Biography              : OSINT enthusiast & explorer
+Public Email           : info@example.com
+Public Phone           : +00 0 123 456 789
+Obfuscated email       : ex*****@example.com
+Obfuscated phone       : +00 ** *** ** **
+
+-------------------------------
+Profile Picture         : https://scontent-xx-xx.cdninstagram.com/...
+
 ---
 
 ## 🚨 Legal Disclaimer
