@@ -73,7 +73,5 @@ Licensed under the [GNU GPLv3](LICENSE)
 
 ---
 
-## 👤 Author
+> 📦 Originally based on [Toutatis](https://github.com/megadose/toutatis) by @megadose, licensed under GPLv3.
 
-**upliftedl**  
-[GitHub Profile](https://github.com/upliftedl)
