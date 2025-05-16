@@ -85,8 +85,11 @@ Usage against Instagram’s Terms of Service is solely your responsibility.
 Licensed under the [GNU GPLv3](LICENSE)
 
 ---
-
 ## 👤 Author
 
-**upliftedl**  
-[GitHub Profile](https://github.com/upliftedl)
+ 
+[**upliftedl** ](https://github.com/upliftedl)
+
+```
+Originally based on Toutatis by @megadose, licensed under GPLv3.
+```
