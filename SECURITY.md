@@ -2,4 +2,5 @@
 
 ## Reporting Vulnerabilities
 
-Please report vulnerabilities to upliftedl@users.noreply.github.com. Response expected within 48 hours.
+Please report vulnerabilities to 3080.ui@gmail.com 
+Response expected within 48 hours.
