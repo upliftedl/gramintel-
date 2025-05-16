@@ -29,7 +29,7 @@ pip install .
 ```
 
 ---
-## 📁 Project Structure: Gramintel
+## 📁 Project Structure:
 
 ```
 gramintel/
