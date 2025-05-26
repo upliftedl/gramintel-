@@ -1,7 +1,7 @@
 import argparse
 import requests
 
-def main()
+def main():
     parser = argparse.ArgumentParser(description='Gramintel CLI')
     parser.add_argument('-u', '--username', help='Instagram username')
     parser.add_argument('-i', '--userid', help='Instagram user ID (not used currently)')
